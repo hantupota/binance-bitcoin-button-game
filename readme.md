@@ -1,17 +1,16 @@
-# Installation instructions: 
-Sure, it's quite stright forward.
+**Sure, it's quite stright forward.**
 
 1. Install node from here, https://nodejs.org/dist/v16.14.1/node-v16.14.1-x64.msi
 
 2. Open powershell on your windows machine(win key and start to write powershell) and verify that your node installation is done, it should look like this:
 
-https://imgur.com/8UFFV1f
+[![](https://i.imgur.com/8UFFV1f.png)
 
 Node version number can differ.
 
 3. Download .zip folder with bot:
 
-https://imgur.com/hBaSdrj
+![](https://i.imgur.com/hBaSdrj.png)
 
 4. place it somehwere on your PC, I would extract it under C:\binance or whatever
 
@@ -20,13 +19,12 @@ https://imgur.com/hBaSdrj
 6. Now you need to acquire headers to authorize your bot. Open index.js with Sublime Text 3 or any other text editor.
 
 These are the variables you will need to fill.
-https://imgur.com/E0PODor
+![](https://i.imgur.com/E0PODor.png)
 
 Its a bit risky, you need to do a click on that big button in binance page, there is a chance you will succeed and burn account. Probably this could be avoided by looking up other requests your browser makes but I'm too lazy. So either click on button or investigate if you can find headers in any other requests.
 
 It seems that other requests will contain those headers as we can see here(it's network tab in chrome dev tools):
-
-https://imgur.com/sUwmp2V
+![](https://i.imgur.com/sUwmp2V.png)
 
 So use those. I like to be authentic as much as possible and I did risked to make a click to obtain real ones.
 
@@ -47,6 +45,9 @@ When I was younger, I constantly won new mobile phones or gift cards by doing ex
 No guarentees tho, there will be a lot of people going after that 1 BTC.
 
 But by some luck it could be you.
+
+# Installation instructions: 
+
 - Install node.js
 - Copy files to any directory
 - Run following commands:
