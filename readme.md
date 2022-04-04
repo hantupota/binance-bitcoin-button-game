@@ -1,6 +1,6 @@
 **Sure, it's quite stright forward.**
 
-1. Install node from here, https://nodejs.org/dist/v16.14.1/node-v16.14.1-x64.msi
+1. Install node from here, https://nodejs.org/dist/v16.14.2/node-v16.14.2-x64.msi
 
 2. Open powershell on your windows machine(win key and start to write powershell) and verify that your node installation is done, it should look like this:
 
